@@ -3,49 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Campo cidade</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>conexão campo cidade</title>
 </head>
 <body>
-    <header class="cabecalho">
-        <img class="cabecalho-imagem" src="ccmedite.jpg" alt="logo da alura start">
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item">Escola</li>
-            <li class="cabecalho-lista-item">Estudante</li>
-        </ul>
-    </header>
-    <section class="escola">
-        <div class="escola-div-conteudo">
-            <h2 class="escola-titulo">Sobre a Escola</h2>
-            <p class="escola-texto-um">Os antecedentes históricos do Colégio Estadual Edite Cordeiro Marques – Ensino de 1º e 2º Graus, inicia-se aproximadamente em 1932, com classe de alfabetização em casa particular de Frida Rickli Naiverth; em 1938/39, criou-se a Escola Pública Municipal do Rio Turvo, com professores Municipais e Estaduais; em 26/05/71, através do Decreto nº 408, criou-se o Grupo Escolar do Distrito de Turvo.</p>
-            <p class="escola-texto-dois">Endereço: Av. Nossa Sra. Aparecida, s/n, Centro, Turvo  - PR, 85150-000  Telefone:(42) 3642-1210 </p>
+  <header class="container text-center">
+    <img src="img/meuAvatar.png" alt="avatar da Hellen" class="rounded-circle" width="150" srcset="" />
+    <p class="lead">Eu sou vitoria_</p>
+    <h1>Campo cidade</h1>
+    <p>
+      Sou estudante de pensamento computacional do Ensino Médio, estudo usando 
+      HTML,CSS e JavaScript, gosto de ler, ouvir música, tocar guitarra e escrever.
+    </p>
+    <p>Minhas habilidades</p>
+    <div>
+        <p class="badge text-bg-secondary">HTML</p>
+        <p class="badge text-bg-secondary">CSS</p>
+        <p class="badge text-bg-secondary">JavaScript</p>
+        <p class="badge text-bg-secondary">Scratch</p>
+      </div>
+      <header>
+        <main class="container">
+          <h2> Meus projetos</h2>
+          <div class="row">
+            <div class="col-md-4">
+            <div class="card">
+              <img src="img/projeto-1.png" class="card-img-top" alt="imagem do projeto da biblioteca visual"/>
+              <div class="card-body">
+                <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+               <p class="card-text">
+               Este projeto é uma página web que apresenta uma lista dos meus livros
+            favoritos, incluindo informações sobre os autores, datas de publicação e
+            links para compra na Amazon. A página é estilizada com CSS para uma
+            visualização agradável e usa fontes externas do Google Fonts.
+                  </p>
+                  <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+    <div class="card">
+        <img src="img/projeto-2.png" class="card-img-top" alt="Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência
+                            Artificial" />
+        <div class="card-body">
+          <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+          <p class="card-text">
+           Este projeto é um jogo interativo baseado em navegador que explora o impacto e as implicações da Inteligência Artificial (IA) na sociedade, permitindo que as
+        pessoas jogadoras façam escolhas que influenciam o desenrolar de uma narrativa sobre o
+        futuro da IA.
+          </p>
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
         </div>
-        <img class="escola-imagem" src="ccm edite.jpg" alt="colégio">
-    </section>
-    <section class="estudante">
-        <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
-        <div class="estudante-todos">
-        <span></span>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-            <h3 class="estudante-nome">Marcelo</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-            <h3 class="estudante-nome">Marcelo</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-       
+      </div>
     </div>
-    </section>
-    <footer class="rodape">
-        <img class="rodape-imagem"src="alurastart logo.png" alt="logo da alura start">
-    </footer>
+    <div class="col-md-4">
+    <div class="card">
+        <img src="img/projeto-3.png" class="card-img-top" alt="Explorando o Universo: Uma Aventura Interativa em Astronomia com Scratch" />
+        <div class="card-body">
+          <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+          <p class="card-text">
+           Este projeto Scratch cria uma experiência interativa educativa sobre
+        astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
+        forma da Terra através de cenários dinâmicos e diálogos informativos.
+          </p>
+          <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+        </div>
+      </div>
+    </div>
+            </div>
+          </main>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
+
 </html>
